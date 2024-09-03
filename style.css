@@ -1,0 +1,108 @@
+body{
+  background-color:#c8d7fa;
+  margin: 0;
+  padding: 0;
+  cursor:pointer;
+}
+
+
+.container{
+  background-color: #253b80;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.name-container{
+  margin: auto;
+  display:inline-flex;
+
+}
+.name{
+  font-weight: bold;
+  font-size: 50px;
+  text-align: center;
+  margin-left: 50px;
+  font-family: 'Times New Roman', Times, serif;
+  color: white;
+  letter-spacing: 3px;
+}
+
+.circle-image{
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border: 1px solid black;
+  border-color: solid;
+  border-radius: 50%;
+}
+
+.CV{
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.left, .right {
+  width: 48%;
+}
+
+
+h2{
+  color:#1A5276;
+  border-bottom: 1px solid #2980B9;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+}
+
+ul, li {
+  margin-bottom: 5px;
+  font-size: 18px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+span{
+  font-size: 18px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.about_me-container p {
+  margin: 0;
+}
+
+.skill-bahasa {
+  margin-top: 20px;
+}
+
+.skill {
+  margin-bottom: 10px;
+}
+
+.bar {
+  background-color: #f0f0f0;
+  border-radius: 5px;
+  height: 20px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.bar-fill {
+  background-color: #253b80;
+  height: 100%;
+  width: 0; 
+}
+
+.kontak-ikon{
+  list-style-type: none;
+  padding: 0;
+}
+
+.kontak-ikon li{
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.kontak-ikon i{
+  margin-right: 10px;
+  color:#253b80;
+}
